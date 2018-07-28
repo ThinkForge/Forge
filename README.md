@@ -10,7 +10,7 @@ A language that compiles to WebAssembly and mirrors the syntax of Elixir.
 
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/ThinkForge/forge?branch=master&svg=true)](https://ci.appveyor.com/project/ThinkForge/forge/branch/master)
 [![Codecov](https://codecov.io/gh/ThinkForge/forge/branch/master/graph/badge.svg)](https://codecov.io/gh/ThinkForge/forge)
-[![Downloads/week](https://img.shields.io/npm/dw/forge.svg)](https://npmjs.org/package/forge)
+[![Downloads/week](https://img.shields.io/npm/dw/thinkforge/forge.svg)](https://npmjs.org/package/thinkforge/forge)
 [![License](https://img.shields.io/npm/l/forge.svg)](https://github.com/ThinkForge/forge/blob/master/package.json) [![Greenkeeper badge](https://badges.greenkeeper.io/ThinkForge/Forge.svg)](https://greenkeeper.io/)
 
 <!-- toc -->
