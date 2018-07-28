@@ -4,7 +4,7 @@ forge
 A language that compiles to WebAssembly and mirrors the syntax of Elixir.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/forge.svg)](https://npmjs.org/package/forge)
+[![Version](https://img.shields.io/npm/v/thinkforge/forge.svg)](https://www.npmjs.com/package/@thinkforge/forge)
 
 [![CircleCI](https://circleci.com/gh/ThinkForge/forge/tree/master.svg?style=shield)](https://circleci.com/gh/ThinkForge/forge/tree/master)
 
