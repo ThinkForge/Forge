@@ -1,5 +1,5 @@
 {
-  "name": "forge",
+  "name": "@thinkforge/forge",
   "description": "A language that compiles to WebAssembly and mirrors the syntax of Elixir.",
   "version": "0.0.0",
   "author": "ThinkForge <shearogers@thinkforge.io>",
