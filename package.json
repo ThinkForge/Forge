@@ -1,0 +1,64 @@
+{
+  "name": "forge",
+  "description": "A language that compiles to WebAssembly and mirrors the syntax of Elixir.",
+  "version": "0.0.0",
+  "author": "ThinkForge <shearogers@thinkforge.io>",
+  "bin": {
+    "forge": "./bin/run"
+  },
+  "bugs": "https://github.com/ThinkForge/forge/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2",
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@oclif/test": "^1",
+    "@oclif/tslint": "^1",
+    "@types/chai": "^4",
+    "@types/mocha": "^5",
+    "@types/node": "^10",
+    "chai": "^4",
+    "globby": "^8",
+    "mocha": "^5",
+    "nyc": "^12",
+    "rimraf": "^2.6.2",
+    "ts-node": "^6",
+    "tslint": "^5",
+    "typescript": "^2.9"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json"
+  ],
+  "homepage": "https://github.com/ThinkForge/forge",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "APACHE-2.0",
+  "main": "lib/index.js",
+  "oclif": {
+    "commands": "./lib/commands",
+    "bin": "forge",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "https://www.github.com/ThinkForge/forge",
+  "scripts": {
+    "postpack": "rimraf oclif.manifest.json npm-shrinkwrap.json",
+    "posttest": "tsc -p test --noEmit && tslint -p test -t stylish",
+    "prepack": "rimraf lib && tsc && oclif-dev manifest && oclif-dev readme && npm shrinkwrap",
+    "prepare": "rimraf lib && tsc",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\"",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "lib/index.d.ts"
+}
