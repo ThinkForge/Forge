@@ -26,7 +26,7 @@ export default class Build extends Command {
     const myModule = new Module();
 
     myModule.addFunction("add", myModule.addFunctionType("iii", i32, [i32, i32]), [i32],
-      myModule.block(null, [
+      myModule.block("test", [
         myModule.setLocal(2,
           myModule.i32.add(
             myModule.getLocal(0, i32),
@@ -51,9 +51,6 @@ export default class Build extends Command {
     var textData = myModule.emitText();
     var wasmData = myModule.emitBinary();
 
-    // Example usage with the WebAssembly API
-    var compiled = new WebAssembly.Module(wasmData);
-    var instance = new WebAssembly.Instance(compiled, {});
     this.log(textData);
 
     this.log(`hello from .\\src\\commands\\hello.ts`)
