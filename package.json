@@ -1,7 +1,7 @@
 {
   "name": "@thinkforge/forge",
   "description": "A language that compiles to WebAssembly and mirrors the syntax of Elixir.",
-  "version": "0.0.1-ALPHA",
+  "version": "0.0.2-ALPHA",
   "author": "ThinkForge <shearogers@thinkforge.io>",
   "bin": {
     "forge": "./bin/run"
