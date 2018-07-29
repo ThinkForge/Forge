@@ -1,7 +1,4 @@
-Forge
-=====
-
-A language that compiles to WebAssembly and mirrors the syntax of Elixir.
+# Forge
 
 [![Version](https://img.shields.io/npm/v/@thinkforge/forge.svg)](https://www.npmjs.com/package/@thinkforge/forge)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/ThinkForge/forge?branch=master&svg=true)](https://ci.appveyor.com/project/ThinkForge/forge/branch/master)
@@ -10,119 +7,33 @@ A language that compiles to WebAssembly and mirrors the syntax of Elixir.
 [![License](https://img.shields.io/npm/l/@thinkforge/forge.svg)](https://github.com/ThinkForge/forge/blob/master/LICENSE.md)
 [![Greenkeeper badge](https://badges.greenkeeper.io/ThinkForge/Forge.svg)](https://greenkeeper.io/)
 
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
+* [🗒 Description](#-description)
+* [🚀 Getting Started Tutorial](#-getting-started-tutorial)
+* [✨ Features](#-features)
+* [📌 Requirements](#-requirements)
+* [🏭 Related Repositories](#-related-repositories)
+* [🦔 Learn More](#-learn-more)
+* [📣 Feedback](#-feedback)
 
-# Usage
-<!-- usage -->
-```sh-session
-$ npm install -g @thinkforge/forge
-$ forge COMMAND
-running command...
-$ forge (-v|--version|version)
-@thinkforge/forge/0.0.3-ALPHA win32-x64 node-v9.11.1
-$ forge --help [COMMAND]
-USAGE
-  $ forge COMMAND
-...
-```
-<!-- usagestop -->
-```sh-session
-$ npm install -g @thinkforge/forge
-$ forge COMMAND
-running command...
-$ forge (-v|--version|version)
-@thinkforge/forge/0.0.2-ALPHA win32-x64 node-v9.11.1
-$ forge --help [COMMAND]
-USAGE
-  $ forge COMMAND
-...
-```
+## 🗒 Description
 
-# Commands
-<!-- commands -->
-* [`forge build [FILE]`](#forge-build-file)
-* [`forge help [COMMAND]`](#forge-help-command)
+Forge is a language designed with the structure and syntax of Elixir as a basis, with the intention of being compiled into WebAssembly. The end goal is to power a web framework that will have the same code style as an Elixir backend, making the development workflow much cleaner.
 
-## `forge build [FILE]`
+[See the docs for more information](https://thinkforge.github.io/Forge/).
 
-Builds your .frg file(s).
+## 🚀 Specification Overview
 
-```
-USAGE
-  $ forge build [FILE]
+The [Specification Overview](https://thinkforge.github.io/Forge/Specification/overview/) contains the main goals that we plan to reach syntactically. This should provide enough information in the short term to give you an idea of what we want to achieve.
 
-OPTIONS
-  -f, --force      force replace output files
-  -h, --help       show CLI help
-  -o, --name=name  output file
+## ✨ Contributing
 
-EXAMPLE
-  $ forge build test.frg -o test.wasm
-       Built test.wasm!
-```
+We welcome contributions! Forge is currently very much at the ALPHA stage, with very little actually working. However, we try to mark any issues with the tag "Good First Issue" if we think they could be handled by a newer contributor. On the other hand, feel free to jump right in to any issue if you think you can handle it! Just make sure to follow the [contributing](https://github.com/ThinkForge/forge/blob/master/CONTRIBUTING.md) guide when you do, and things will work out fine.
 
-_See code: [src\commands\build.ts](https://github.com/ThinkForge/forge/blob/v0.0.3-ALPHA/src\commands\build.ts)_
+## 📌 Requirements
 
-## `forge help [COMMAND]`
+Only Node 8+ is supported, and we use Yarn for our package management. Other than that, it should all be handled for you.
 
-display help for forge
+## 🏭 Related Repositories
 
-```
-USAGE
-  $ forge help [COMMAND]
-
-ARGUMENTS
-  COMMAND  command to show help for
-
-OPTIONS
-  --all  see all commands in CLI
-```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.5/src\commands\help.ts)_
-<!-- commandsstop -->
-* [`forge hello [FILE]`](#forge-hello-file)
-* [`forge help [COMMAND]`](#forge-help-command)
-
-## `forge hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ forge hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ forge hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src\commands\hello.ts](https://github.com/ThinkForge/forge/blob/v0.0.2-ALPHA/src\commands\hello.ts)_
-
-## `forge help [COMMAND]`
-
-display help for forge
-
-```
-USAGE
-  $ forge help [COMMAND]
-
-ARGUMENTS
-  COMMAND  command to show help for
-
-OPTIONS
-  --all  see all commands in CLI
-```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.5/src\commands\help.ts)_
-<!-- commandsstop -->
+* [WebAssembly/binaryen](https://github.com/WebAssembly/binaryen) - We use binaryen to compile to WebAssembly.
+* [elixir-lang/elixir](https://github.com/elixir-lang/elixir) - The awesome language we base our syntax on.

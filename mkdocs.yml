@@ -1,3 +1,6 @@
 site_name: Forge
 theme:
     name: 'material'
+    palette:
+        primary: 'deep orange'
+        accent: 'indigo'

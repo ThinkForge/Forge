@@ -29,7 +29,7 @@ end
 
 ## Variable Types
 
-Forge has the same types as Elixir, which also mirrors many other languages.
+Forge has the same types as Elixir, which also mirrors many other languages. A lot of the inspiration for the way Forge handles things can be seen [here](https://elixir-lang.org/getting-started/basic-types.html).
 
 ### Integers
 
@@ -50,3 +50,23 @@ x = 10.0
 ### Booleans
 
 Forge uses true and false for boolean values.
+
+### Atoms
+
+Atoms are what most other variable types can be broken down into. Boolean values, for instance, are atoms.
+
+```elixir
+$ fex> true == :true
+true
+$ fex> is_atom(false)
+true
+```
+
+### Strings
+
+Strings are the same as in other languages, with the same syntax as Elixir: delimited by double quotes, and encoded using UTF-8.
+
+```bash
+iex> "hello"
+hello
+```
