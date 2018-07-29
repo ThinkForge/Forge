@@ -27,7 +27,7 @@
         },
         {
             "location": "/Specification/overview/",
-            "text": "Specification Overview\n\n\nThis page should provide a brief summary of the syntax of the language for you.\n\n\nFunctions\n\n\nForge defines functions in the same way as Elixir does. For example, here is a function that takes two numbers and adds them.\n\n\n# add/2\ndef Add(a, b) do\n  a + b\nend\n\n\n\n\nNote the automatic return of the result of the last statement evaluated. This is again the same as in Elixir.\n\n\nModules\n\n\nForge defines modules instead of the typical Class you might see in C++. Remember, Forge is a Functional language, so Modules act differently than classes as well.\n\n\ndefmodule Adder do\n  def Add(a, b) do\n    a + b\n  end\nend\n\n\n\n\nVariable Types\n\n\nForge has the same types as Elixir, which also mirrors many other languages.\n\n\nIntegers\n\n\nIntegers are for storing non-floating point numbers.\n\n\nx = 10\n\n\n\n\nFloats\n\n\nFloats are for storing floating point numbers.\n\n\nx = 10.0\n\n\n\n\nBooleans\n\n\nForge uses true and false for boolean values.",
+            "text": "Specification Overview\n\n\nThis page should provide a brief summary of the syntax of the language for you.\n\n\nFunctions\n\n\nForge defines functions in the same way as Elixir does. For example, here is a function that takes two numbers and adds them.\n\n\n# add/2\ndef Add(a, b) do\n  a + b\nend\n\n\n\n\nNote the automatic return of the result of the last statement evaluated. This is again the same as in Elixir.\n\n\nModules\n\n\nForge defines modules instead of the typical Class you might see in C++. Remember, Forge is a Functional language, so Modules act differently than classes as well.\n\n\ndefmodule Adder do\n  def Add(a, b) do\n    a + b\n  end\nend\n\n\n\n\nVariable Types\n\n\nForge has the same types as Elixir, which also mirrors many other languages. A lot of the inspiration for the way Forge handles things can be seen \nhere\n.\n\n\nIntegers\n\n\nIntegers are for storing non-floating point numbers.\n\n\nx = 10\n\n\n\n\nFloats\n\n\nFloats are for storing floating point numbers.\n\n\nx = 10.0\n\n\n\n\nBooleans\n\n\nForge uses true and false for boolean values.\n\n\nAtoms\n\n\nAtoms are what most other variable types can be broken down into. Boolean values, for instance, are atoms.\n\n\n$ fex> true == :true\ntrue\n$ fex> is_atom(false)\ntrue\n\n\n\n\nStrings\n\n\nStrings are the same as in other languages, with the same syntax as Elixir: delimited by double quotes, and encoded using UTF-8.\n\n\niex> \"hello\"\nhello",
             "title": "Specification Overview"
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "location": "/Specification/overview/#variable-types",
-            "text": "Forge has the same types as Elixir, which also mirrors many other languages.",
+            "text": "Forge has the same types as Elixir, which also mirrors many other languages. A lot of the inspiration for the way Forge handles things can be seen  here .",
             "title": "Variable Types"
         },
         {
@@ -64,6 +64,16 @@
             "location": "/Specification/overview/#booleans",
             "text": "Forge uses true and false for boolean values.",
             "title": "Booleans"
+        },
+        {
+            "location": "/Specification/overview/#atoms",
+            "text": "Atoms are what most other variable types can be broken down into. Boolean values, for instance, are atoms.  $ fex> true == :true\ntrue\n$ fex> is_atom(false)\ntrue",
+            "title": "Atoms"
+        },
+        {
+            "location": "/Specification/overview/#strings",
+            "text": "Strings are the same as in other languages, with the same syntax as Elixir: delimited by double quotes, and encoded using UTF-8.  iex> \"hello\"\nhello",
+            "title": "Strings"
         }
     ]
 }

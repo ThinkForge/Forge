@@ -278,6 +278,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#atoms" title="Atoms" class="md-nav__link">
+    Atoms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strings" title="Strings" class="md-nav__link">
+    Strings
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -362,6 +376,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#atoms" title="Atoms" class="md-nav__link">
+    Atoms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strings" title="Strings" class="md-nav__link">
+    Strings
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -405,7 +433,7 @@ end
 </code></pre>
 
 <h2 id="variable-types">Variable Types</h2>
-<p>Forge has the same types as Elixir, which also mirrors many other languages.</p>
+<p>Forge has the same types as Elixir, which also mirrors many other languages. A lot of the inspiration for the way Forge handles things can be seen <a href="https://elixir-lang.org/getting-started/basic-types.html">here</a>.</p>
 <h3 id="integers">Integers</h3>
 <p>Integers are for storing non-floating point numbers.</p>
 <pre><code class="elixir">x = 10
@@ -418,6 +446,19 @@ end
 
 <h3 id="booleans">Booleans</h3>
 <p>Forge uses true and false for boolean values.</p>
+<h3 id="atoms">Atoms</h3>
+<p>Atoms are what most other variable types can be broken down into. Boolean values, for instance, are atoms.</p>
+<pre><code class="elixir">$ fex&gt; true == :true
+true
+$ fex&gt; is_atom(false)
+true
+</code></pre>
+
+<h3 id="strings">Strings</h3>
+<p>Strings are the same as in other languages, with the same syntax as Elixir: delimited by double quotes, and encoded using UTF-8.</p>
+<pre><code class="bash">iex&gt; &quot;hello&quot;
+hello
+</code></pre>
                 
                   
                 
