@@ -31,18 +31,18 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="/assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-0.17.5, mkdocs-material-2.9.2">
     
     
       
-        <title>Forge</title>
+        <title>Contributing - Forge</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/application.ba0fd1a6.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.ba0fd1a6.css">
       
-        <link rel="stylesheet" href="/assets/stylesheets/application-palette.6079476c.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.6079476c.css">
       
       
         
@@ -51,7 +51,7 @@
       
     
     
-      <script src="/assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
       <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -60,7 +60,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="/assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
   </head>
@@ -79,12 +79,16 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#contributing" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="/" title="Forge" class="md-header-nav__button md-logo">
+        <a href="../.." title="Forge" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -101,7 +105,7 @@
                 Forge
               </span>
               <span class="md-header-nav__topic">
-                
+                Contributing
               </span>
             
           
@@ -172,7 +176,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/" title="Home" class="md-nav__link">
+    <a href="../.." title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -182,10 +186,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Developers
@@ -203,7 +209,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/Developers/Code_of_Conduct/" title="Code of Conduct" class="md-nav__link">
+    <a href="../Code_of_Conduct/" title="Code of Conduct" class="md-nav__link">
       Code of Conduct
     </a>
   </li>
@@ -213,11 +219,49 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="/Developers/Contributing/" title="Contributing" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Contributing
+      </label>
+    
+    <a href="./" title="Contributing" class="md-nav__link md-nav__link--active">
       Contributing
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-process" title="Pull Request Process" class="md-nav__link">
+    Pull Request Process
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -251,7 +295,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/Specification/overview/" title="Overview" class="md-nav__link">
+    <a href="../../Specification/overview/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -269,12 +313,64 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-process" title="Pull Request Process" class="md-nav__link">
+    Pull Request Process
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
-
+                
+                
+                <h1 id="contributing">Contributing</h1>
+<p>When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change. Most issues
+other than bugs should exist for the project already if they are in scope; make sure to look there
+first.</p>
+<p>Please note we have a <a href="CODE_OF_CONDUCT.md">code of conduct</a>, please follow it in all your interactions with the project.</p>
+<h2 id="pull-request-process">Pull Request Process</h2>
+<ol>
+<li>Implement your changes. Remember to include testing that adequately covers your code,
+    if applicable. PRs with no testing added need to have made minimal changes to be accepted.</li>
+<li>Update the documentation site with details of changes to the project, in the appropriate area.
+    If you need assistance with this, create an issue with the [docs] and [help wanted] tags.</li>
+<li>Ensure your changes pass the automatic tests from </li>
+<li>Your PR will be merged in once you have the sign-off with the project maintainer, in order to
+    maintain a consistent release schedule. If the maintainer does not approve or leave feedback
+    on your PR, reaching out through the Discord is recommended.</li>
+</ol>
+                
+                  
+                
+              
               
                 
 
@@ -287,6 +383,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Code_of_Conduct/" title="Code of Conduct" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Code of Conduct
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../Specification/overview/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Overview
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -307,9 +438,9 @@
       
     </div>
     
-      <script src="/assets/javascripts/application.a59e2a89.js"></script>
+      <script src="../../assets/javascripts/application.a59e2a89.js"></script>
       
-      <script>app.initialize({version:"0.17.5",url:{base:""}})</script>
+      <script>app.initialize({version:"0.17.5",url:{base:"../.."}})</script>
       
     
     

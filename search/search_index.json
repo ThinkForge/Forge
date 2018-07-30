@@ -26,6 +26,61 @@
             "title": "What Now"
         },
         {
+            "location": "/Developers/Code_of_Conduct/",
+            "text": "Code of Conduct\n\n\nOur Pledge\n\n\nIn the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.\n\n\nOur Standards\n\n\nExamples of behavior that contributes to creating a positive environment\ninclude:\n\n\n\n\nUsing welcoming and inclusive language\n\n\nBeing respectful of differing viewpoints and experiences\n\n\nGracefully accepting constructive criticism\n\n\nFocusing on what is best for the community\n\n\nShowing empathy towards other community members\n\n\n\n\nExamples of unacceptable behavior by participants include:\n\n\n\n\nThe use of sexualized language or imagery and unwelcome sexual attention or\nadvances\n\n\nTrolling, insulting/derogatory comments, and personal or political attacks\n\n\nPublic or private harassment\n\n\nPublishing others' private information, such as a physical or electronic\n  address, without explicit permission\n\n\nOther conduct which could reasonably be considered inappropriate in a\n  professional setting\n\n\n\n\nOur Responsibilities\n\n\nProject maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.\n\n\nProject maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.\n\n\nScope\n\n\nThis Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.\n\n\nEnforcement\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at [INSERT EMAIL ADDRESS]. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.\n\n\nProject maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.\n\n\nAttribution\n\n\nThis Code of Conduct is adapted from the \nContributor Covenant\n, version 1.4,\navailable at \nhttp://contributor-covenant.org/version/1/4",
+            "title": "Code of Conduct"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#code-of-conduct",
+            "text": "",
+            "title": "Code of Conduct"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#our-pledge",
+            "text": "In the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.",
+            "title": "Our Pledge"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#our-standards",
+            "text": "Examples of behavior that contributes to creating a positive environment\ninclude:   Using welcoming and inclusive language  Being respectful of differing viewpoints and experiences  Gracefully accepting constructive criticism  Focusing on what is best for the community  Showing empathy towards other community members   Examples of unacceptable behavior by participants include:   The use of sexualized language or imagery and unwelcome sexual attention or\nadvances  Trolling, insulting/derogatory comments, and personal or political attacks  Public or private harassment  Publishing others' private information, such as a physical or electronic\n  address, without explicit permission  Other conduct which could reasonably be considered inappropriate in a\n  professional setting",
+            "title": "Our Standards"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#our-responsibilities",
+            "text": "Project maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.  Project maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.",
+            "title": "Our Responsibilities"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#scope",
+            "text": "This Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.",
+            "title": "Scope"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#enforcement",
+            "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at [INSERT EMAIL ADDRESS]. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.  Project maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.",
+            "title": "Enforcement"
+        },
+        {
+            "location": "/Developers/Code_of_Conduct/#attribution",
+            "text": "This Code of Conduct is adapted from the  Contributor Covenant , version 1.4,\navailable at  http://contributor-covenant.org/version/1/4",
+            "title": "Attribution"
+        },
+        {
+            "location": "/Developers/Contributing/",
+            "text": "Contributing\n\n\nWhen contributing to this repository, please first discuss the change you wish to make via issue,\nemail, or any other method with the owners of this repository before making a change. Most issues\nother than bugs should exist for the project already if they are in scope; make sure to look there\nfirst.\n\n\nPlease note we have a \ncode of conduct\n, please follow it in all your interactions with the project.\n\n\nPull Request Process\n\n\n\n\nImplement your changes. Remember to include testing that adequately covers your code,\n    if applicable. PRs with no testing added need to have made minimal changes to be accepted.\n\n\nUpdate the documentation site with details of changes to the project, in the appropriate area.\n    If you need assistance with this, create an issue with the [docs] and [help wanted] tags.\n\n\nEnsure your changes pass the automatic tests from \n\n\nYour PR will be merged in once you have the sign-off with the project maintainer, in order to\n    maintain a consistent release schedule. If the maintainer does not approve or leave feedback\n    on your PR, reaching out through the Discord is recommended.",
+            "title": "Contributing"
+        },
+        {
+            "location": "/Developers/Contributing/#contributing",
+            "text": "When contributing to this repository, please first discuss the change you wish to make via issue,\nemail, or any other method with the owners of this repository before making a change. Most issues\nother than bugs should exist for the project already if they are in scope; make sure to look there\nfirst.  Please note we have a  code of conduct , please follow it in all your interactions with the project.",
+            "title": "Contributing"
+        },
+        {
+            "location": "/Developers/Contributing/#pull-request-process",
+            "text": "Implement your changes. Remember to include testing that adequately covers your code,\n    if applicable. PRs with no testing added need to have made minimal changes to be accepted.  Update the documentation site with details of changes to the project, in the appropriate area.\n    If you need assistance with this, create an issue with the [docs] and [help wanted] tags.  Ensure your changes pass the automatic tests from   Your PR will be merged in once you have the sign-off with the project maintainer, in order to\n    maintain a consistent release schedule. If the maintainer does not approve or leave feedback\n    on your PR, reaching out through the Discord is recommended.",
+            "title": "Pull Request Process"
+        },
+        {
             "location": "/Specification/overview/",
             "text": "Specification Overview\n\n\nThis page should provide a brief summary of the syntax of the language for you.\n\n\nFunctions\n\n\nForge defines functions in the same way as Elixir does. For example, here is a function that takes two numbers and adds them.\n\n\n# add/2\ndef Add(a, b) do\n  a + b\nend\n\n\n\n\nNote the automatic return of the result of the last statement evaluated. This is again the same as in Elixir.\n\n\nModules\n\n\nForge defines modules instead of the typical Class you might see in C++. Remember, Forge is a Functional language, so Modules act differently than classes as well.\n\n\ndefmodule Adder do\n  def Add(a, b) do\n    a + b\n  end\nend\n\n\n\n\nVariable Types\n\n\nForge has the same types as Elixir, which also mirrors many other languages. A lot of the inspiration for the way Forge handles things can be seen \nhere\n.\n\n\nIntegers\n\n\nIntegers are for storing non-floating point numbers.\n\n\nx = 10\n\n\n\n\nFloats\n\n\nFloats are for storing floating point numbers.\n\n\nx = 10.0\n\n\n\n\nBooleans\n\n\nForge uses true and false for boolean values.\n\n\nAtoms\n\n\nAtoms are what most other variable types can be broken down into. Boolean values, for instance, are atoms.\n\n\n$ fex> true == :true\ntrue\n$ fex> is_atom(false)\ntrue\n\n\n\n\nStrings\n\n\nStrings are the same as in other languages, with the same syntax as Elixir: delimited by double quotes, and encoded using UTF-8.\n\n\niex> \"hello\"\nhello",
             "title": "Specification Overview"
