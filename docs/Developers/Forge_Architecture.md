@@ -3,7 +3,7 @@
 Forge has the same architecture as any other transpiler; take [Babel](https://babeljs.io/), for instance. 
 In the diagram below, we explore this architecture in more detail.
 
-<img src="/_assets/architecture.svg" alt="Forge Architecture">
+<img src="../../_assets/architecture.svg" alt="Forge Architecture">
 *This is the Forge Architecture diagram.*
 
 ## Architecture Breakdown
