@@ -81,6 +81,46 @@
             "title": "Pull Request Process"
         },
         {
+            "location": "/Developers/Forge_Architecture/",
+            "text": "Forge Architecture\n\n\nForge has the same architecture as any other transpiler; take \nBabel\n, for instance. \nIn the diagram below, we explore this architecture in more detail.\n\n\n\n\nThis is the Forge Architecture diagram.\n\n\nArchitecture Breakdown\n\n\nHere we will take a moment to go through each step of the process from a high overview standpoint.\nTechnical and implementation details can be found in the source itself.\n\n\nInput Code\n\n\nThe transpiler takes a file or set of files as an argument. The files are then opened using the input\nstream function, and read in line by line.\n\n\nParser / AST\n\n\nThe input stream feeds the code into the parser. The parser is in charge of taking that code and generating\nand Abstract Syntax Tree (AST for short). This ATS is a representation of the Tokens in the file; a token\nbeing an individual section of the code, I.E. a variable or statement. It then feeds this AST into the\nTransformer.\n\n\nTransformer\n\n\nThe Transformer takes an AST as an input, and outputs one as well. However, the transformer optimizes the AST\nbefore sending it on; this allows us to make changes to the AST that refactor code that would not fit well\nin WebAssembly. Then, the AST is forwarded on to the Generator.\n\n\nGenerator\n\n\nThe Generator is fairly straightforward; it takes an AST as input, and outputs WebAssembly. This process is\ndone through the use of a project called \nBinaryen\n. Binaryen\ntakes our AST and produces the associated WebAssembly from there. Then, we take the output and feet it to\nthe Output Stream.\n\n\nOutput\n\n\nAs the final step, we write the code into an output file, the name of which can be specified by CLI arguments.\nThis output can be used directly in the browser, and should be the final step Forge needs to handle.",
+            "title": "Forge Architecture"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#forge-architecture",
+            "text": "Forge has the same architecture as any other transpiler; take  Babel , for instance. \nIn the diagram below, we explore this architecture in more detail.   This is the Forge Architecture diagram.",
+            "title": "Forge Architecture"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#architecture-breakdown",
+            "text": "Here we will take a moment to go through each step of the process from a high overview standpoint.\nTechnical and implementation details can be found in the source itself.",
+            "title": "Architecture Breakdown"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#input-code",
+            "text": "The transpiler takes a file or set of files as an argument. The files are then opened using the input\nstream function, and read in line by line.",
+            "title": "Input Code"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#parser-ast",
+            "text": "The input stream feeds the code into the parser. The parser is in charge of taking that code and generating\nand Abstract Syntax Tree (AST for short). This ATS is a representation of the Tokens in the file; a token\nbeing an individual section of the code, I.E. a variable or statement. It then feeds this AST into the\nTransformer.",
+            "title": "Parser / AST"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#transformer",
+            "text": "The Transformer takes an AST as an input, and outputs one as well. However, the transformer optimizes the AST\nbefore sending it on; this allows us to make changes to the AST that refactor code that would not fit well\nin WebAssembly. Then, the AST is forwarded on to the Generator.",
+            "title": "Transformer"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#generator",
+            "text": "The Generator is fairly straightforward; it takes an AST as input, and outputs WebAssembly. This process is\ndone through the use of a project called  Binaryen . Binaryen\ntakes our AST and produces the associated WebAssembly from there. Then, we take the output and feet it to\nthe Output Stream.",
+            "title": "Generator"
+        },
+        {
+            "location": "/Developers/Forge_Architecture/#output",
+            "text": "As the final step, we write the code into an output file, the name of which can be specified by CLI arguments.\nThis output can be used directly in the browser, and should be the final step Forge needs to handle.",
+            "title": "Output"
+        },
+        {
             "location": "/Specification/overview/",
             "text": "Specification Overview\n\n\nThis page should provide a brief summary of the syntax of the language for you.\n\n\nFunctions\n\n\nForge defines functions in the same way as Elixir does. For example, here is a function that takes two numbers and adds them.\n\n\n# add/2\ndef Add(a, b) do\n  a + b\nend\n\n\n\n\nNote the automatic return of the result of the last statement evaluated. This is again the same as in Elixir.\n\n\nModules\n\n\nForge defines modules instead of the typical Class you might see in C++. Remember, Forge is a Functional language, so Modules act differently than classes as well.\n\n\ndefmodule Adder do\n  def Add(a, b) do\n    a + b\n  end\nend\n\n\n\n\nVariable Types\n\n\nForge has the same types as Elixir, which also mirrors many other languages. A lot of the inspiration for the way Forge handles things can be seen \nhere\n.\n\n\nIntegers\n\n\nIntegers are for storing non-floating point numbers.\n\n\nx = 10\n\n\n\n\nFloats\n\n\nFloats are for storing floating point numbers.\n\n\nx = 10.0\n\n\n\n\nBooleans\n\n\nForge uses true and false for boolean values.\n\n\nAtoms\n\n\nAtoms are what most other variable types can be broken down into. Boolean values, for instance, are atoms.\n\n\n$ fex> true == :true\ntrue\n$ fex> is_atom(false)\ntrue\n\n\n\n\nStrings\n\n\nStrings are the same as in other languages, with the same syntax as Elixir: delimited by double quotes, and encoded using UTF-8.\n\n\niex> \"hello\"\nhello",
             "title": "Specification Overview"
