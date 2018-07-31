@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Home\n\n\nWelcome to the Forge language documentation!\n\n\nWe hope you enjoy your stay. If you have any feedback, please do not hesitate to open an issue \nhere\n.\n\n\nForge Is\n\n\n\n\nAn Elixir-like language that compiles to WebAssembly\n\n\nA functional language\n\n\nAn open source project\n\n\nNot ready to use in the wild\n\n\n\n\nForge Is Not\n\n\n\n\nReady to be used!\n\n\nFeature-complete\n\n\nA direct clone of Elixir\n\n\n\n\nWhat Now\n\n\nIf you are still interested after the bullet points, take a look at the \nGitHub issues\n page to see if there is anything you can help with! The help is always appreciated.",
+            "text": "Home\n\n\n\n\nWelcome to the Forge language documentation!\n\n\nWe hope you enjoy your stay. If you have any feedback, please do not hesitate to open an issue \nhere\n.\n\n\nForge Is\n\n\n\n\nAn Elixir-like language that compiles to WebAssembly\n\n\nA functional language\n\n\nAn open source project\n\n\nNot ready to use in the wild\n\n\n\n\nForge Is Not\n\n\n\n\nReady to be used!\n\n\nFeature-complete\n\n\nA direct clone of Elixir\n\n\n\n\nWhat Now\n\n\nIf you are still interested after the bullet points, take a look at the \nGitHub issues\n page to see if there is anything you can help with! The help is always appreciated.",
             "title": "Home"
         },
         {
