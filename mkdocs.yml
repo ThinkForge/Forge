@@ -1,6 +1,9 @@
 site_name: Forge
 theme:
     name: 'material'
+    logo: '_assets/icon.svg'
     palette:
         primary: 'deep orange'
         accent: 'indigo'
+repo_url: https://github.com/thinkforge/forge/
+site_description: 'A web language based on Elixir that compiles into WebAssembly.'

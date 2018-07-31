@@ -1,5 +1,7 @@
 # Home
 
+<img src="_assets/logo.svg" alt="Forge Logo" height="50px">
+
 *Welcome to the Forge language documentation!*
 
 We hope you enjoy your stay. If you have any feedback, please do not hesitate to open an issue [here](https://github.com/ThinkForge/Forge/issues/new).
