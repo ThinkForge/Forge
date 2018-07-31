@@ -1,4 +1,4 @@
-# Forge
+# <img src="docs/_assets/logo.svg" alt="Forge Logo" height="100px">
 
 [![Version](https://img.shields.io/npm/v/@thinkforge/forge.svg)](https://www.npmjs.com/package/@thinkforge/forge)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/ThinkForge/forge?branch=master&svg=true)](https://ci.appveyor.com/project/ThinkForge/forge/branch/master)
