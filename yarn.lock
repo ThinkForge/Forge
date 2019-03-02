@@ -342,9 +342,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-binaryen@^48.0.0:
-  version "48.0.0"
-  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-48.0.0.tgz#40eeff8ba0393751271dfa217987114dd65b9b59"
+binaryen@^71.0.0:
+  version "71.0.0"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-71.0.0.tgz#17583206f5cf9dd2c2a93b297343f9d5aa95921e"
+  integrity sha512-UJhKlu8LccEr2qG1PoXgjag9xdaKlTdd04K1pU6FPTWEnD6NAkNPcb0Yw2aESQCXszHhcM8sAIMmImRGwwhF2A==
 
 bl@^1.0.0:
   version "1.2.2"
