@@ -15,7 +15,7 @@
     "tslib": "^1"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
+    "@oclif/dev-cli": "^1.21.3",
     "@oclif/test": "^1",
     "@oclif/tslint": "^1",
     "@types/chai": "^4",
