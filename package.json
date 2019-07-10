@@ -9,7 +9,7 @@
   "bugs": "https://github.com/ThinkForge/forge/issues",
   "dependencies": {
     "@oclif/command": "^1",
-    "@oclif/config": "^1",
+    "@oclif/config": "^1.13.1",
     "@oclif/plugin-help": "^2",
     "binaryen": "^48.0.0",
     "tslib": "^1"
